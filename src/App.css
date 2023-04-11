@@ -18,4 +18,9 @@ h1{
 .BoxLG {
   background: #fff;
   padding: 1.2rem;
+  width: 90vw;
+  margin: 8rem auto;
+  max-width: 35rem;
+  border-radius: 0.25rem;
 }
+

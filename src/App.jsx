@@ -1,15 +1,18 @@
 import { useState } from 'react'
 import './App.css'
-import Header from './Component/Header'
-import FormBox from './Component/FormBox'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <div>
-      <Header /><br />
-      <FormBox />
+      <section className='BoxLG'>
+          <h1>ToDos APP</h1>
+        <form className='form-box'>
+            <input type='text' className='text-input' placeholder="ToDos" />
+            <button type='submit' className='submit-btn'>Add Dos</button>
+        </form>
+      </section>
     </div>
   )
 }
