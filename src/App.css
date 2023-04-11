@@ -3,3 +3,19 @@
   padding: 0;
   box-sizing: border-box  
 }
+
+body {
+  background: #121312;
+}
+
+h1{
+  font-size: 3rem;
+  line-height: 1.2;
+  text-align: center;
+  /* color: #fff; ไม่ต้องใส่ก็ได้ */
+}
+
+.BoxLG {
+  background: #fff;
+  padding: 1.2rem;
+}
