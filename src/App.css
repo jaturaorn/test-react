@@ -36,3 +36,11 @@ h1{
   flex: 1 0 auto;
 }
 
+.submit-btn{
+  background-color: palevioletred;
+  color: #121312;
+  font-weight: 800;
+  cursor: pointer;
+  border: transparent;
+  font-size: 1.2rem;
+}
