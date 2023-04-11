@@ -2,7 +2,9 @@ import React from 'react'
 
 function Header() {
   return (
-    <div>Header</div>
+    <section className='BoxLG'>
+      <h1>ToDos APP</h1>
+    </section>
   )
 }
 
