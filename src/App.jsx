@@ -6,13 +6,15 @@ function App() {
   const [Name, setName] = useState('')
   const [List, setList] = useState([])
 
-  // ดักจับ Evnet ใน form
+  // เก็บข้อมูลผ่าน func โดย state setList ผ่าน array
   const submitData = (e) => {
+    // ดักจับ Evnet ใน form
     e.preventDefault()
     const newItem = {
         id:uuidv4(),
         title:Name
-    } 
+    }
+    setList([...List,newItem]) 
   }
   return (
     <div>
