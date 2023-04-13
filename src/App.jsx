@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import { v4 as uuidv4 } from 'uuid';
+import List from './Component/List';
 
 function App() {
   const [Name, setName] = useState('')
@@ -34,6 +35,9 @@ function App() {
             <button type='submit' className='submit-btn'>Add Dos</button>
           </div>
         </form>
+        <section className='list-box'>
+          <List />
+        </section>
       </section>
     </div>
   )
