@@ -9,9 +9,9 @@ function App() {
   // ดักจับ Evnet ใน form
   const submitData = (e) => {
     e.preventDefault()
-    const newItem = () => {
-        id,
-        title
+    const newItem = {
+        id:uuidv4(),
+        title:Name
     } 
   }
   return (
