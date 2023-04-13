@@ -14,7 +14,10 @@ function App() {
         id:uuidv4(),
         title:Name
     }
-    setList([...List,newItem]) 
+    setList([...List,newItem])
+    // เก็บข้อมูลผ่าน func โดย state setList ผ่านเก็บ array
+    setName('')
+    // เวลากดแล้วให้เป็นค่าว่าง 
   }
   return (
     <div>
