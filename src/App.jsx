@@ -1,12 +1,18 @@
 import { useState } from 'react'
 import './App.css'
+import { v4 as uuidv4 } from 'uuid';
 
 function App() {
   const [Name, setName] = useState('')
+  const [List, setList] = useState([])
+
   // ดักจับ Evnet ใน form
   const submitData = (e) => {
     e.preventDefault()
-    
+    const newItem = () => {
+        id,
+        title
+    } 
   }
   return (
     <div>
