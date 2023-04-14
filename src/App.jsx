@@ -37,7 +37,7 @@ function App() {
         </form>
         <section className='list-box'>
           {list.map((data,index)=>{
-            return <List/>
+            return <List key={index} {...data}/>
           })}
         </section>
       </section>

@@ -1,4 +1,4 @@
-const List = () => {
+const List = ({id,title}) => {
   return (
         <p>List component</p>
   )
