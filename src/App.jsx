@@ -5,7 +5,7 @@ import List from './Component/List';
 
 function App() {
   const [Name, setName] = useState('')
-  const [List, setList] = useState([])
+  const [list, setList] = useState([])
 
   // เก็บข้อมูลผ่าน func โดย state setList ผ่าน array
   const submitData = (e) => {
@@ -15,7 +15,7 @@ function App() {
         id:uuidv4(),
         title:Name
     }
-    setList([...List,newItem])
+    setList([...list,newItem])
     // เก็บข้อมูลผ่าน func โดย state setList ผ่านเก็บ array
     setName('')
     // เวลากดแล้วให้เป็นค่าว่าง 
@@ -36,7 +36,9 @@ function App() {
           </div>
         </form>
         <section className='list-box'>
-          <List />
+          {list.map((data,index)=>{
+            return <List/>
+          })}
         </section>
       </section>
     </div>
