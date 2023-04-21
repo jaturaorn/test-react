@@ -1,0 +1,8 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+    color: #515151;
+    background-color: linear-gradient(45deg,#185aad,#43c2a2);
+}
