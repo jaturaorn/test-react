@@ -2,7 +2,7 @@ import './Appweather.css'
 
 function Weather() {
   return (
-    <div>
+    <div className='App'>
         <section>
             <div className="location">
                 <h1 className="city">Bangkok</h1>
