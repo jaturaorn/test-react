@@ -41,10 +41,16 @@ section {
 }
 
 .location {
-    color: #fff;
+    color: #000;
 }
 
 .city {
     margin: 0;
     font-size: 2rem;
 }
+
+.info {
+    display: flex;
+    background-color: #fff;
+}
+
