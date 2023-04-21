@@ -17,3 +17,8 @@ body {
 section {
     margin-top: 7%;
 }
+
+.card {
+    width: 500px;
+    box-shadow: 0 10px 0 #515154;
+}
