@@ -1,14 +1,11 @@
-import { useState } from 'react'
-import './App.css'
-import { v4 as uuidv4 } from 'uuid';
-import List from './Component/List';
-import Imageslider from './Component/imageslider';
-import ToDOs from './Component/ToDOs';
+import React from 'react';
+import './Appweather.css'
+import Weather from './Component/Weather';
 
 function App() {
   return (
     <div>
-      
+      <Weather />
     </div>
   )
 }
