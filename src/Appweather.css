@@ -4,7 +4,7 @@ body {
     margin: 0;
     text-align: center;
     color: #515151;
-    background-color: linear-gradient(45deg,#185aad,#43c2a2);
+    background-color: #185aad;
 }
 
 .App {
@@ -54,3 +54,8 @@ section {
     background-color: #fff;
 }
 
+.info *{
+    padding: 20px;
+    flex: 1;
+    border-right: 1px solid #e6e6e6;
+}
