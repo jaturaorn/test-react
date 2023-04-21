@@ -1,4 +1,4 @@
-import './App.css'
+import './Appweather.css'
 
 function Weather() {
   return (
