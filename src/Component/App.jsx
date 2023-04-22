@@ -1,12 +1,13 @@
 import React from 'react';
 import './Slider.css';
-import Weather from './Component/Weather';
-import Imageslider from './Component/imageslider';
+import Weather from './Weather';
+import Imageslider from './imageslider';
+import Footer from '../Footer';
 
 function App() {
   return (
     <div>
-      <Imageslider />
+      <Footer />
     </div>
   )
 }

@@ -1,11 +1,12 @@
 import Imagedata from "./imgesdata"
 import '../Slider.css'
+import { useState } from "react";
 import { AiOutlineArrowLeft,AiOutlineArrowRight } from "react-icons/ai";
 
 
 const Imageslider = () => {
     const [Current,setCurrent] = useState(0);
-    const length = Imagedata.length
+    const length = Imagedata.length;
 
     const prevSlide =()=>{
         if(Current === 0){
@@ -29,9 +30,12 @@ const Imageslider = () => {
         {Imagedata.map((data, index) =>{
             return (
                 <div className={index === Current ? "slide active" : "slide"} key={index}>
-                    <div>
+                    {index === Current &&
+                    (
+                        <div>
                         <img src={data.image} alt={data.title} className="image"/>
-                    </div>
+                        </div>
+                    )}
                 </div>
             )
         })}
